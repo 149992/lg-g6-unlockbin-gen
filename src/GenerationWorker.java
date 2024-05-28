@@ -39,8 +39,8 @@ public class GenerationWorker extends SwingWorker<Void, String> {
 		System.out.println("DeviceId: " + deviceId);
 		System.out.println("OutputFile: " + outputFile);
 
-		this.imei = imei;
-		this.deviceId = deviceId;
+		this.imei = 356144084428589;
+		this.deviceId = DBEF9C5B33E8DE4F9930D164DECD6A62F1C5C49955D3DCB310DB5303B730209A;
 		this.file = new File(outputFile);
 		this.saveProgresses = saveProgresses;
 		this.firstSignature = new byte[KEY_SIZE];
